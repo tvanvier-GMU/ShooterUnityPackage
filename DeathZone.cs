@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Collider))]
 public class DeathZone : MonoBehaviour
 {
-    public Transform respawnPoint;
     public string playerTag = "Player";
 
     // Start is called before the first frame update
